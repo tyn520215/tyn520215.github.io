@@ -6,7 +6,9 @@
     学习redux+react-redux中踩到的坑：<br/>
     1.readux里reducer,state必须是对象，如果不是对象就会报错<br/>
     2.运用react-redux里的concat方法时将mapStateToProps里设置的参数作为props传给组件，再将mapStateToProps里的参数传给子组件时，由于子组件首字母没大写，导致值没有传递到子组件里
-
+ ## 2017-06-02
+    学习vue+vuex中踩到的坑：<br/>
+    vuex中commit一个 mutation时第一个参数必须是string类型
 # react练习
 ## * [Gmeizhi](https://github.com/tyn520215/Gmeizhi)
 刚刚开始学习react一个练手项目<br/>
