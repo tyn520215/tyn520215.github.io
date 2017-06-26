@@ -23,3 +23,15 @@
 5.webpack<br/>
 ## 感谢
 * [妹纸.gank.io](https://github.com/drakeet/Meizhi)提供的妹纸接口
+
+
+# vue+vuex+vue-router+vue-cli
+## * [管理系统](https://github.com/tyn520215/vue-mange)
+学习vue+vuex的写的一个项目
+
+本项目运用了：<br/>
+1.es6<br/>
+2.element-ui(饿了吗前端推出的专注pc端的ui框架)<br/>
+3vue+vuex+vue-router+vue-cli(脚手架)<br/>
+5.webpack<br/>
+
