@@ -9,6 +9,12 @@
  ## 2017-06-02
     学习vue+vuex中踩到的坑：<br/>
     vuex中commit一个 mutation时第一个参数必须是string类型
+ ## 2017-07-07
+    公司H5页面开发过程中遇到一个只有ios有的问题，ios会把数字识别成电话号码并添加了个背景 
+   ![meizhi](app.png)<br/>
+   只需要在页面中添加一个meat标签禁止ios识别为电话号码
+   &lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot; /&gt;
+
 # react练习
 ## * [Gmeizhi](https://github.com/tyn520215/Gmeizhi)
 刚刚开始学习react一个练手项目<br/>
