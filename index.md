@@ -28,6 +28,8 @@
 # vue+vuex+vue-router+vue-cli
 ## * [管理系统](https://github.com/tyn520215/vue-mange)
 学习vue+vuex的写的一个项目
+![meizhi](shwo.gif)
+![meizhi](add.gif)<br/>
 
 本项目运用了：<br/>
 1.es6<br/>
