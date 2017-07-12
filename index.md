@@ -14,7 +14,12 @@
    ![meizhi](app.png)<br/>
    只需要在页面中添加一个meat标签禁止ios识别为电话号码
    &lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot; /&gt;
-
+## 2017-07-12
+   今天写vue遇到个js中引用图片的问题.<br/>
+  如果直接(../image/a.png)这样引用，它无法被url-loader解析到，页面会找不到图片404。<br/>
+  我使用的是vue-cli脚手架初始化的项目，<br/>
+  解决方法就是把图片放到同级的static目录下直接(/static/a.png)引用就行了
+   
 # react练习
 ## * [Gmeizhi](https://github.com/tyn520215/Gmeizhi)
 刚刚开始学习react一个练手项目<br/>
