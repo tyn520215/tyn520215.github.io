@@ -19,7 +19,15 @@
   如果直接(../image/a.png)这样引用，它无法被url-loader解析到，页面会找不到图片404。<br/>
   我使用的是vue-cli脚手架初始化的项目，<br/>
   解决方法就是把图片放到同级的static目录下直接(/static/a.png)引用就行了
-   
+## 2017-10-16
+  关于vue-cli跨域问题配置proxyTable<br/>
+  proxyTable: {<br/>
+      '/api': {<br/>
+        target: 'http://gakki318.com',<br/>
+        changeOrigin: true<br/>
+      }<br/>
+    }<br/>
+  
 # react练习
 ## * [Gmeizhi](https://github.com/tyn520215/Gmeizhi)
 刚刚开始学习react一个练手项目<br/>
