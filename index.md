@@ -27,7 +27,10 @@
         changeOrigin: true<br/>
       }<br/>
     }<br/>
-  
+## 2018-05-07
+今天处理ios网页遇到两个问题：
+1.js处理时间显示NAN，解决办法需要把时间字符串进行处理一下 replace(/\-/g, "/")
+2.ios键盘默认唤起数字键盘需要在input标签上添加pattern="[0-9]*"这个属性
 # react练习
 ## * [Gmeizhi](https://github.com/tyn520215/Gmeizhi)
 刚刚开始学习react一个练手项目<br/>
