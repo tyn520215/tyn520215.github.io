@@ -61,10 +61,10 @@
 
 ## 2020-06-12
 关于ios微信内置浏览器底部导航条会遮挡住页面的问题
-解决方法：
-在一进入页面一开始就往历史站中添加一条历史记录，唤起导航条。
-先判断是不是ios,然后往history添加一条记录
-let isIOS= !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
-if(isIOS){
-    window.history.pushState({}, "title", "#");
- }
+<br/>解决方法：
+<br/>在一进入页面一开始就往历史站中添加一条历史记录，唤起导航条。
+<br/>先判断是不是ios,然后往history添加一条记录
+<br/>let isIOS= !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+<br/>if(isIOS){
+    <br/>window.history.pushState({}, "title", "#");
+ <br/>}
