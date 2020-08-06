@@ -68,3 +68,8 @@
 <br/>if(isIOS){
     <br/>window.history.pushState({}, "title", "#");
  <br/>}
+## 2020-08-06   electron-vue build 打包成exe采坑记录
+1.遇到electron-v2.0.18-win32-x64文件下不下来或者太慢，<br/>可以去这里下载安装包https://npm.taobao.org/mirrors/electron/
+<br/>然后将安装包拷贝到C:\Users\gakkisama\.electron文件夹下 ，注意，以上路径默认是隐藏的。
+<br/>然后通过npm i electron -S指令继续安装
+2.打包成exe时遇到electron-v2.0.18-win32-x64文件下不下来或者太慢，同样将对应包拷贝到C:\Users\gakkisama\AppData\Local\electron\Cache文件夹下
